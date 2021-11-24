@@ -67,7 +67,7 @@ h4 {
   background-position: center;
   background-size: cover; */
 
-  height: 400px;
+  height: 350px;
   position: absolute;
   top: 0;
   left: 0;
@@ -132,22 +132,23 @@ h4 {
   padding: 30px;
   width: 90%;
   background-color: var(--very-pale-blue);
+  background-color: lightgreen;
   border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.plan-text-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
 }
 
-.plan-text-box img {
-  margin-right: 10px;
+.plan-box ul {
+  list-style: none;
+  margin: 0 -10px;
+  display: flex;
+  align-items: center;
 }
 
+.plan-box li {
+  padding: 0 10px;
+}
+.push-right {
+  margin-left: auto;
+}
 .btn-box {
   display: flex;
   flex-direction: column;
